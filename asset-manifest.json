@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/faqapp/static/css/main.ef9d19df.css",
-    "main.js": "/faqapp/static/js/main.4b05797f.js",
+    "main.css": "/faqapp/static/css/main.90f34dbb.css",
+    "main.js": "/faqapp/static/js/main.aec2a27f.js",
     "static/media/illustration-woman-online-mobile.svg": "/faqapp/static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
     "static/media/illustration-woman-online-desktop.svg": "/faqapp/static/media/illustration-woman-online-desktop.843eb114c7213a596ee246bf87f27008.svg",
     "index.html": "/faqapp/index.html",
-    "main.ef9d19df.css.map": "/faqapp/static/css/main.ef9d19df.css.map",
-    "main.4b05797f.js.map": "/faqapp/static/js/main.4b05797f.js.map"
+    "main.90f34dbb.css.map": "/faqapp/static/css/main.90f34dbb.css.map",
+    "main.aec2a27f.js.map": "/faqapp/static/js/main.aec2a27f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef9d19df.css",
-    "static/js/main.4b05797f.js"
+    "static/css/main.90f34dbb.css",
+    "static/js/main.aec2a27f.js"
   ]
 }

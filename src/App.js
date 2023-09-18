@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-
+import desktop from './images/illustration-woman-online-desktop.svg'
+import mobile from './images/illustration-woman-online-mobile.svg'
+import QuestionCom from './QuestionCom';
+import Questions from './Questions'
 function App() {
+  const [quest] = useState(Questions);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className='container'>
+        <article >
+          <picture>
+            <source media="(min-width:786px)" srcSet={desktop} />
+            <img className='image' src={mobile} alt='' />
+          </picture>
+        </article>
+        <article>
+          <h1>FAQ</h1>
+          {quest.map(
+            (e, index) => (<QuestionCom key={index} question={e.question} answer={e.answer} />)
+          )}
+        </article>
+      </div>
+    
   );
 }
 

@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
+/*How many team members can I invite?
+You can invite up to 2 additional users on the Free plan. There is no limit on 
+team members for the Premium plan.
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+What is the maximum file upload size?
+No more than 2GB. All files in your account must fit your allotted storage space.
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+How do I reset my password?
+Click “Forgot password” from the login page or “Change password” from your profile page.
+A reset link will be emailed to you.
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+Can I cancel my subscription?
+Yes! Send us a message and we’ll process your request no questions asked.
 
-.App-link {
-  color: #61dafb;
-}
+Do you provide additional support?
+Chat and email support is available 24/7. Phone lines are open during normal business hours.
+*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+#### Text
+
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+
+#### Gradient
+
+Background gradient:
+
+- Soft violet: hsl(273, 75%, 66%)
+- Soft blue: hsl(240, 73%, 65%)
+
+### Neutral
+
+#### Text
+
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+#### Dividers
+
+- Light grayish blue: hsl(240, 5%, 91%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 12px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+*/
